@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BotStudio — Telegram-боты и сайты</title>
+<meta name="description" content="Разрабатываем Telegram-ботов и сайты для небольшого бизнеса.">
+<meta name="theme-color" content="#131416">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="На главную">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><rect x="2" y="5" width="22" height="16" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="9.5" cy="13" r="1.8" fill="currentColor"/><circle cx="16.5" cy="13" r="1.8" fill="currentColor"/><path d="M13 5V2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span data-brand>BotStudio</span>
+    </a>
+    <nav id="nav" aria-label="Основное меню">
+      <a href="#home">Главная</a>
+      <a href="#services">Услуги</a>
+      <a href="#works">Работы</a>
+      <a href="#about">О нас</a>
+      <a href="#contact">Контакты</a>
+      <a class="btn nav-cta" href="#contact">Обсудить проект</a>
+    </nav>
+    <a class="btn head-cta" href="#contact">Обсудить проект</a>
+    <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1>Разрабатываем Telegram-ботов и сайты под ваши задачи</h1>
+      <p class="lead">Помогаем автоматизировать процессы, запускать онлайн-проекты и представлять бизнес в интернете.</p>
+      <div class="actions">
+        <a class="btn" href="#contact">Обсудить проект</a>
+        <a class="btn ghost" href="#services">Наши услуги</a>
+      </div>
+    </div>
+    <figure class="chat" aria-label="Пример диалога с ботом записи">
+      <div class="chat-head"><span class="dot"></span>Бот записи клиентов</div>
+      <div class="msg bot m1">Здравствуйте. Выберите услугу:</div>
+      <div class="msg keys m2"><span>Стрижка</span><span>Окрашивание</span></div>
+      <div class="msg me m3">Стрижка</div>
+      <div class="msg bot m4">Завтра свободно 12:00 и 15:30. Какое время подойдёт?</div>
+      <div class="msg me m5">15:30</div>
+      <div class="msg bot m6">Записал вас на завтра, 15:30. Напомню за час до визита.</div>
+      <figcaption>Пример диалога. Сценарий обсуждается под ваш бизнес.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="block" id="services">
+  <div class="wrap">
+    <h2>Услуги</h2>
+    <div class="cols">
+      <div>
+        <h3 class="group">Telegram-боты</h3>
+        <ul class="rows">
+          <li><div><h4>Приём и обработка заявок</h4><p>Клиент пишет боту, вы получаете заявку со всеми ответами в одном чате.</p></div><button type="button" class="link" data-type="Telegram-бот" data-note="Бот для приёма заявок">Заказать</button></li>
+          <li><div><h4>Боты для интернет-магазинов</h4><p>Каталог, корзина и оформление заказа прямо в мессенджере.</p></div><button type="button" class="link" data-type="Telegram-бот" data-note="Бот для интернет-магазина">Заказать</button></li>
+          <li><div><h4>Автоматизация бизнеса</h4><p>Уведомления, отчёты и ответы на частые вопросы вместо ручной работы.</p></div><button type="button" class="link" data-type="Telegram-бот" data-note="Бот для автоматизации бизнеса">Заказать</button></li>
+          <li><div><h4>Меню и каталоги</h4><p>Кнопки, разделы и карточки товаров или услуг, которые легко обновлять.</p></div><button type="button" class="link" data-type="Telegram-бот" data-note="Бот с меню и каталогом">Заказать</button></li>
+          <li><div><h4>Запись клиентов</h4><p>Выбор даты и времени, напоминания, перенос и отмена записи.</p></div><button type="button" class="link" data-type="Telegram-бот" data-note="Бот для записи клиентов">Заказать</button></li>
+          <li><div><h4>Индивидуальный бот</h4><p>Нестандартная задача? Опишите её, и мы подскажем, как реализовать.</p></div><button type="button" class="link" data-type="Telegram-бот" data-note="Индивидуальный Telegram-бот">Заказать</button></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="group">Сайты</h3>
+        <ul class="rows">
+          <li><div><h4>Лендинги</h4><p>Одна страница с понятным предложением и формой обращения.</p></div><button type="button" class="link" data-type="Сайт" data-note="Лендинг">Заказать</button></li>
+          <li><div><h4>Сайты-визитки</h4><p>Кто вы, чем занимаетесь, как с вами связаться.</p></div><button type="button" class="link" data-type="Сайт" data-note="Сайт-визитка">Заказать</button></li>
+          <li><div><h4>Сайты для услуг</h4><p>Список услуг, цены, порядок работы и запись.</p></div><button type="button" class="link" data-type="Сайт" data-note="Сайт для услуг">Заказать</button></li>
+          <li><div><h4>Сайты для небольшого бизнеса</h4><p>Каталог, контакты, раздел с новостями или акциями.</p></div><button type="button" class="link" data-type="Сайт" data-note="Сайт для небольшого бизнеса">Заказать</button></li>
+          <li><div><h4>Многостраничные сайты</h4><p>Несколько разделов с общей навигацией и единым оформлением.</p></div><button type="button" class="link" data-type="Сайт" data-note="Многостраничный сайт">Заказать</button></li>
+          <li><div><h4>Индивидуальные веб-проекты</h4><p>Личный кабинет, калькулятор, нестандартная логика.</p></div><button type="button" class="link" data-type="Сайт" data-note="Индивидуальный веб-проект">Заказать</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block alt" id="process">
+  <div class="wrap">
+    <h2>Как мы работаем</h2>
+    <ol class="steps">
+      <li><h3>Обсуждаем задачу</h3><p>Вы рассказываете, что нужно. Мы задаём вопросы и предлагаем решение.</p></li>
+      <li><h3>Согласовываем стоимость и сроки</h3><p>Фиксируем, что входит в работу, сколько она стоит и когда будет готова.</p></li>
+      <li><h3>Разрабатываем проект</h3><p>Показываем промежуточный результат, чтобы вы могли вносить правки.</p></li>
+      <li><h3>Проверяем и передаём</h3><p>Тестируем, исправляем, передаём готовую работу и объясняем, как ей пользоваться.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="block" id="works">
+  <div class="wrap">
+    <h2>Работы</h2>
+    <p class="note">Реальные проекты появятся здесь после выполнения заказов. Пока это учебные примеры: так могут выглядеть ваши будущие бот и сайт.</p>
+    <div class="works">
+      <figure class="w-phone">
+        <div class="mock phone"><i class="l w60"></i><i class="l w40"></i><b class="k"></b><b class="k"></b><b class="k"></b></div>
+        <figcaption><span class="tag">Учебный пример</span>Каталог товаров в боте</figcaption>
+      </figure>
+      <figure class="w-wide">
+        <div class="mock browser"><div class="bar2"><i></i><i></i><i></i></div><div class="body"><i class="l w70 big"></i><i class="l w50"></i><b class="btnm"></b><div class="strip"><b></b><b></b><b></b></div></div></div>
+        <figcaption><span class="tag">Учебный пример</span>Лендинг для услуги</figcaption>
+      </figure>
+      <figure class="w-phone">
+        <div class="mock phone"><i class="l w50"></i><div class="cal"><b></b><b></b><b></b><b></b><b class="on"></b><b></b><b></b><b></b></div><b class="btnm"></b></div>
+        <figcaption><span class="tag">Учебный пример</span>Запись клиентов в боте</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="block alt" id="prices">
+  <div class="wrap narrow">
+    <h2>Стоимость</h2>
+    <p class="note">Точная цена зависит от задачи. Называем её после обсуждения и фиксируем до начала работы.</p>
+    <dl class="prices">
+      <div><dt>Простой Telegram-бот</dt><dd data-price>цена по запросу</dd></div>
+      <div><dt>Telegram-бот с дополнительными функциями</dt><dd data-price>цена по запросу</dd></div>
+      <div><dt>Сайт-визитка</dt><dd data-price>цена по запросу</dd></div>
+      <div><dt>Лендинг</dt><dd data-price>цена по запросу</dd></div>
+      <div><dt>Индивидуальный проект</dt><dd data-price>после обсуждения</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="block" id="about">
+  <div class="wrap narrow">
+    <h2>О нас</h2>
+    <p class="big-p"><span data-brand>BotStudio</span> — небольшая студия. Мы делаем Telegram-ботов и простые сайты для тех, кому нужен работающий инструмент, а не громкие обещания.</p>
+    <p>Говорим о задаче простым языком и сразу называем, что реально сделать за ваш бюджет. Если что-то лишнее, так и скажем. Передаём проект вместе с пояснениями, чтобы вы понимали, как он устроен.</p>
+  </div>
+</section>
+
+<section class="block alt" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Обсудить проект</h2>
+      <p>Напишите в Telegram или заполните форму. Расскажите, что нужно сделать, и мы ответим, как это можно реализовать.</p>
+      <a class="btn" data-tg href="https://t.me/USERNAME" target="_blank" rel="noopener">Написать в Telegram</a>
+    </div>
+    <form id="form" novalidate>
+      <label>Имя
+        <input id="f-name" name="name" type="text" autocomplete="name" required>
+      </label>
+      <label>Тип проекта
+        <select id="f-type" name="type">
+          <option>Telegram-бот</option>
+          <option>Сайт</option>
+          <option>Бот и сайт вместе</option>
+          <option>Другое</option>
+        </select>
+      </label>
+      <label>Описание задачи
+        <textarea id="f-text" name="text" rows="5" required></textarea>
+      </label>
+      <button class="btn" type="submit">Подготовить заявку</button>
+      <div id="form-note" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="year"></span> <span data-brand>BotStudio</span></span>
+    <a data-tg href="https://t.me/USERNAME" target="_blank" rel="noopener">Telegram</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
